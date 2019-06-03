@@ -32,3 +32,7 @@ end
 describe package 'libncurses5' do
   it { should be_installed }
 end
+
+describe package 'python-jinja2' do
+  it { should be_installed }
+end
